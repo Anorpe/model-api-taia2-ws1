@@ -26,4 +26,4 @@ def index():
 api.add_resource(Model, '/model')
 
 if __name__ == '__main__':
-     app.run(port='8080',debug = False)
+     app.run_server(port='8080',debug = False)
