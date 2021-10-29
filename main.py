@@ -19,7 +19,9 @@ class Model(Resource):
 
 
 
-
+@app.route('/')
+def index():
+  return "<h1>Bienvenido a Modelos para Tópicos Avanzados de Inteligencia Artificial 2  2021-2</h1>"
 
 api.add_resource(Model, '/model')
 
